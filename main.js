@@ -1,10 +1,10 @@
 
 
-function openNav(){
+function openNav() {
     document.getElementById("nav-bar").style.width = '25%';
 }
 
-function closeNav(){
+function closeNav() {
     document.getElementById("nav-bar").style.width = '0%';
 }
 
@@ -17,7 +17,7 @@ menuBtn.addEventListener('click', () => {
     if (!menuOpen) {
         menuOpen = true;
         menuBtn.classList.add('open');
-        mainContent.classList.add('open'); 
+        mainContent.classList.add('open');
         openNav();
 
     } else {
