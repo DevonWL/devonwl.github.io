@@ -20,8 +20,3 @@ margin-right: 0px;
 overflow-x: hidden;
 transition: 0.3s;
 }
-
-@media screen and (max-height: 450px) {
-  .nav-bar {padding-top: 15px;}
-  .a {font-size: 18px;}
-}
