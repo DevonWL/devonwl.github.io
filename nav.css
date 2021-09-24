@@ -35,27 +35,16 @@ ul{
 
 
 @media screen and (max-width: 768px) {
-nav{
-  font-family: Inter;
-  width: 100%;
-  background-color: transparent;
-  color: rgba(0, 0, 0, 0); 
-  display: flex;
-  justify-content: right;
-  align-items: right;
-  text-align: right;
-}
-
 .nav-bar{
 display: flex;
 justify-content: flex-end;
 position: absolute;
-text-align: right;
 top: 0;
 right: 0;
 width: 0%;
 height: 100%;
 overflow-x: hidden;
+text-align: right;
 transition: 0.3s;
 z-index: 9999;
 }
@@ -65,6 +54,7 @@ ul{
 }
 
 li{
+  margin: 0 0 1rem;
   list-style: none;
 }
 
@@ -80,4 +70,14 @@ li{
   -webkit-transition:.5s;
   transition:.5s;
 }
+
+
+}
+
+@media screen and (max-width: 568px) {
+
+  .nav-bar a {
+          font-size: 1rem;
+  }
+
 }
