@@ -36,26 +36,12 @@ html, body{
   transition: opacity .3s linear;
 }
 
-.container{  
-  position: fixed;
-  top: 50%;
-  left: 50%;
-}
 
 .name-center{
   text-align: center;
 }
 
-a{
-  color: white;
-  padding: 8px 8px 8px 32px;
-  font-size: 26px;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
-}
+
 
 a:link{
   text-decoration: none;

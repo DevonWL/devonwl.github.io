@@ -1,26 +1,22 @@
-header{
-    padding: 25px;
-    font-size: 26px;
-    display: flex;
-    position: sticky;
-    justify-content: space-between;
-    align-items: center;
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     background-color: #0E1212;
     font-family: "Inter";
     color: #fff;
     height: 10%;
+    z-index: 10;
 }
 
-.menu-btn{
+.header-container{
   display: flex;
-  justify-content: right;
   align-items: center;
-  width: 80px;
-  height: 80px;
-  cursor: pointer;
-  transition: all .5 ease-in-out;
-  border: transparent;
+  justify-content: space-between;
+  height: 3rem;
+  max-width: 80rem;
+  margin: 0 auto;
 }
 
 .header-lname{
@@ -28,13 +24,35 @@ header{
   font-weight: bold;
 }
 
+
+@media screen and (max-width: 768px) {
+
+  .header-container{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+
+.menu-btn{
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .8rem;
+  margin-right: -1rem; 
+  background: none;
+  border: 0;
+}
+
+
+
 .menu-btn_burger{
   width: 50px;
   height: 5px;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 1px 3px #ffd1dc;
-  transition: all .5 ease-in-out;
+  transition: all .3s linear;
 }
 
 
@@ -47,7 +65,7 @@ header{
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 1px 3px #ffd1dc;
-  transition: all .5 ease-in-out;
+  transition: all .3s linear;
 }
 
 .menu-btn_burger:hover, .menu-btn_burger:hover::before, .menu-btn_burger:hover::after{
@@ -75,3 +93,4 @@ header{
   transform:rotate(-45deg) translate(35px, 35px);
 }
 
+}

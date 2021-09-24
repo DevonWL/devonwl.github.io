@@ -1,7 +1,7 @@
 
 
 function openNav(){
-    document.getElementById("nav-bar").style.width = '10%';
+    document.getElementById("nav-bar").style.width = '25%';
 }
 
 function closeNav(){
