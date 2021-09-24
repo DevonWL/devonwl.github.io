@@ -15,7 +15,6 @@ html { font-family: 'Inter', sans-serif; }
 
 html, body{
     background-color: #0E1212;
-    position:relative;
     font-family: "Inter";
     color: #fff;
     height: 100%;
@@ -28,7 +27,7 @@ html, body{
   position: absolute;
   opacity: 1;
   transition: opacity .3s linear;
-  height: calc(100% - 120px);
+  height: calc(100% - 130px);
   width: 100%;
 }
 
