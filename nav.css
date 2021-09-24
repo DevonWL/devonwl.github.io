@@ -1,27 +1,22 @@
 nav{
-    font-family: Inter;
-    width:100%;
-    background-color: transparent;
-    color: rgba(0, 0, 0, 0); 
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  font-family: Inter;
+  width: 100%;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .nav-bar{
-  background-color: #0E1212;
-  width: 10%;
-  height: 100%;
-  margin-left: auto; 
-  margin-right: -450px;
-  transition: all 0.3s ease 0s;
+background-color: #0E1212;
+position: fixed;
+right: 0;
+width: 0%;
+height: 100%;
+margin-left: auto; 
+margin-right: 0px;
+overflow-x: hidden;
+transition: 0.3s;
 }
-
-.nav-bar.open{
-  transform: translateX(-400px);
-  transition: all 0.3s ease 0s;
-}
-
-
