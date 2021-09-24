@@ -21,3 +21,8 @@ overflow-x: hidden;
 transition: 0.3s;
 z-index: 1;
 }
+
+@media screen and (max-height: 450px) {
+  .nav-bar {padding-top: 15px;}
+  .nav-bar a {font-size: 18px;}
+}
