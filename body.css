@@ -11,10 +11,7 @@ html { font-family: 'Inter', sans-serif; }
   
 }
 
-@viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
+
 
 html, body{
     background-color: #0E1212;
@@ -27,6 +24,7 @@ html, body{
 
 .main-content{
   visibility: visible;
+  position: absolute;
   opacity: 1;
   transition: opacity .3s linear;
   height: calc(100% - 120px);
@@ -52,6 +50,7 @@ html, body{
 
 a{
   color: white;
+  padding: 8px 8px 8px 32px;
   font-size: 26px;
   -o-transition:.5s;
   -ms-transition:.5s;
