@@ -27,7 +27,7 @@ html, body{
   position: absolute;
   opacity: 1;
   transition: opacity .3s linear;
-  height: calc(100% - 130px);
+  height: 90%;
   width: 100%;
 }
 
